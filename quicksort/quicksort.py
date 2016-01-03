@@ -47,11 +47,3 @@ class QuickSort(object):
 
 	def revSort(self):
 		self.sort(self.__gt__)
-
-if __name__ == "__main__":
-	arr = [0, -4, 5, -2]
-	obj = QuickSort(arr)
-	obj.revSort()
-	print arr
-	obj.sort()
-	print arr
